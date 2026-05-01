@@ -152,16 +152,10 @@ input, select, textarea {
 
 
 
-
-
-
-
 .imim {
 	
 	width:100px;
-	
-	
-	
+		
 }
 
 
@@ -183,22 +177,26 @@ figcaption {
 
 
 .myimages{
-	width:400px;
+	max-width:100%;
 	height:600px;
 	padding: 1px;
+	
+	
+	
+	
+	
 	
 		
 }
 
+
 .secimages{
-	width:400px;
+	max-width:100%;
     height:200px;	
-	
+	display:block;
 	
 	
 }
-
-
 
 
 
@@ -206,7 +204,7 @@ figcaption {
 
 .image-container {
   display: flex;       
-  gap: 2px;          
+  gap: 1px;          
   justify-content: center; 
 }
 
@@ -217,39 +215,6 @@ figcaption {
 		
 	
 	
-     
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2390,7 +2355,9 @@ figcaption {
 
 			.image.main img {
 				border-radius: 0;
-			    
+			    max-width:100%;
+				height:auto;
+				display:block;
   
 				
 				
